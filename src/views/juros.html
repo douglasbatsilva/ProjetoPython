@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="bg-dark p-5" style="height: 100vh;">
+        <div class="container border p-4 bg-white">
+            <h1 class="display-4 text-center">Juros</h1>
+            <hr />
+
+            <form action="" method="POST">
+                <input type="number" placeholder="Valor Inicial" name="num1" class="form-control my-3">
+                <input type="number" placeholder="Rentabilidade Mensal" name="num2" class="form-control my-3">
+                <input type="number" placeholder="Meses para rendimento" name="num3" class="form-control my-3">
+
+                <input type="radio" name="opc" id="jusi" value="jusi">
+                <label for="jusi">Juros Simples</label>
+
+                <input type="radio" name="opc" id="juro" value="juro">
+                <label for="juro">Juros Composto</label>
+            
+                <div class=mt-4>
+                    <button class="btn btn-primary">Enviar</button>
+                    <button class="btn btn-secondary" type="reset">Cancelar</button>
+                    <a class="btn btn-warning" type="reset" href="/">Voltar</a>
+                <div>
+            </form>
+
+        </div>
+    <div>
+</body>
+</html>
